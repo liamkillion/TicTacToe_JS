@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",        // path to output directory
+        "sourceMap": true,          // allow sourcemap support
+        "strictNullChecks": true,   // enable strict null checks as a best practice
+        "module": "es6",            // specify module code generation
+        "jsx": "react",             // use typescript to transpile jsx to js
+        "target": "es5",            // specify ECMAScript target version
+        "allowJs": true,            // allow a partial TypeScript and JavaScript codebase
+        "noImplicitAny": true,       // disallow implicit any type
+        "moduleResolution": "node"  // for knowledge of node_module directory
+    },
+    "include": [
+        "./src/"
+    ]
+}
+
+
+/* https://github.com/Microsoft/TypeScript-React-Conversion-Guide
+to https://github.com/Microsoft/TypeScript-React-Conversion-Guide/issues/17
+to https://github.com/Microsoft/TypeScript-React-Conversion-Guide/pull/20/commits/70905b08783b4bc1cb6e702d9580426da98bc8d7 */
+/* also used
+https://medium.freecodecamp.org/effective-use-of-typescript-with-react-3a1389b6072a
+https://www.typescriptlang.org/docs/handbook/advanced-types.html */
